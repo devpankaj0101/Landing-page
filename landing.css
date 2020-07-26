@@ -1,0 +1,124 @@
+body {
+    width:100%;
+    height:auto;
+    background-color:aqua;
+}
+#header{
+    width:100vw;
+    height:auto;
+    position:fixed;
+    overflow: hidden;
+    margin: 20px 0px 0px 150px;
+    top:-10px;
+    background-color: #f2f2f2;
+}
+h1{
+    font-size:30px;
+}
+#header-img{
+    position: fixed;
+    left: 0px;
+    top: 10px;
+    width: 11vw;
+    height: 12vh;
+}
+#nav-bar{ 
+    display: block;
+    position: fixed;
+    top: 6%;
+    left: 70%;
+    font-size: 130%;
+}
+.nav-link{
+    float: left;
+    display: block;
+    color: #16ce68d2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+form{
+    position: relative;
+    top:110px;
+display:flex;
+justify-content: center;
+width:100vw;
+height:5vh;
+}
+#email{
+box-shadow: 2px 5px 9px 6.5px black;
+}
+#submit{
+    margin: 0px 0px 0px 10px;
+    box-shadow: 3px 3px 0 1px;
+}
+
+#video{
+position:relative;
+top:155px;
+left:20%;
+    width:50%;
+    height:315px;
+margin-top: 40px;
+}
+#feature{
+    position: relative;
+    top: 165px;
+    margin: 0px 0px 0px 97px;
+    width:50vw;
+    height:10vh;
+}
+.feature-header{
+    font-size: 37px;
+}
+.feature-list{
+    font-size:22px;
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    position: relative;
+    top:500px;
+    margin:0 0 0 100px;
+    height:500px;
+   
+}
+#box-1 {
+    background-color: dodgerblue;
+    width: 33%;
+    height: 50%;
+    border:2px solid black;
+    border-radius: 20px 60px 20px 60px;
+  }
+
+  #box-2 {
+    background-color: rgba(0, 255, 200, 0.644);
+    width: 33%;
+    height: 50%;
+    border:2px solid black;
+    border-radius: 20px 60px 20px 60px;
+
+  }
+  #box-3{
+      background-color:pink;
+      width:33%;
+      height:50%;
+      border:2px solid black;
+      border-radius: 20px 60px 20px 60px;
+
+  }
+  button{
+      position: relative;
+      margin:0px 0px 0px 81px;
+      border: 1px solid gray;
+  }
+  #footer{
+      position: relative;
+      top:453px;
+  }
+  @media(max-width: 500px){
+      .flex{
+          font-size:20px;
+      }
+  }
